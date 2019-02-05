@@ -1,0 +1,91 @@
+body{
+    
+    background-image:linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 31%;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ddd;
+    text-align: center;
+    font-size: 64px;
+    letter-spacing: 30px;
+    margin: 5%;
+    padding: 50px;
+}
+
+
+#del-countdown{
+padding-left: 6%; 
+width: 1200px;
+margin: 4%;
+}
+
+#ampm{
+    text-align:right;
+    color:aqua;
+    font-size: 32px;
+
+}
+
+#clock span{
+    align-content: center;
+    align-items: center;
+float: left;
+text-align: center;
+font-size: 64px;
+margin: 0 6.0%;
+color:white;
+padding: 20px;
+width: 10%;
+border-radius: 100px;
+box-sizing: border-box;
+border-bottom-left-radius: 45%;
+border-top-right-radius: 45%;
+}
+
+#clock span:nth-child(1){
+    background-color: rgb(214, 0, 0);
+}
+
+#clock span:nth-child(2){
+    background-color: rgba(0, 255, 234, 0.925);
+}
+
+#clock span:nth-child(3){
+    background-color: #ec7e00;
+}
+
+#clock span:nth-child(4){
+    background: #0400ff;
+}
+
+
+#units span{
+
+    float: left;
+    width: 16%;
+    text-align: center;
+    margin: 3%;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px rgba(10,10,10,0.7);
+}
+
+
+
+
+
+span.turn{
+    animation: turn 0.7s ease forwards;
+        
+}
+
+@keyframes turn{
+    0%{transform: rotateX(0deg)
+    }
+    100%{transform: rotateX(360deg)}
+}
